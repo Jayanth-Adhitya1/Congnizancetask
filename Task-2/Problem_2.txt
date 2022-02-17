@@ -1,0 +1,12 @@
+Function fibonacciNumber
+n = input("Enter Nth value")
+#Store first 2 values of the sequence
+integer FibonacciFirst = 0
+integer FibonacciSecond = 1
+integer FibonacciResult
+#Loop for n+1 times and replace the first and second with values in the next indices
+for(i=2 to n+1)
+	FibonacciResult = FibonacciFirst + FibonacciSecond
+	FibonacciFirst = FibonacciSecond
+	FibonacciSecond = FibonacciResult
+print("FibonacciResult")
