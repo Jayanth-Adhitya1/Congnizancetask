@@ -1,0 +1,9 @@
+sum = 0
+num = input("Enter the number")
+while num > 0
+	x = num % 10
+	sum = sum + x
+	x = num/10
+end
+value = (sum % 3 == 0)
+print(value)
